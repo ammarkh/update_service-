@@ -46,7 +46,7 @@ public class JSONReader {
     }
 
     private static void parseTableObject(JSONObject table) {
-        JSONObject _table = (JSONObject) table.get("table");
+        JSONObject _table = (JSONObject) table.get("tableName");
 
         JsonTableObject tableObject = new JsonTableObject();
 
